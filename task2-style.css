@@ -26,9 +26,15 @@ body {
 .header {
     background-color: blueviolet;
     height: 150px;
+    column-gap: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img img {
+    height: 100px;
+    width: 100px;
 }
 
 .text {
@@ -57,7 +63,6 @@ body {
 }
 
 .main {
-    /* display: inline-block; */
     background-color: white;
     width: 70%;
 }
